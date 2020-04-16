@@ -2,9 +2,6 @@
 <html prefix="og: http://ogp.me/ns#" lang="es-mx">
 <head>
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
   <meta charset="utf-8">
 
   <meta property="og:title" content="MXM | México por México"/>
@@ -12,20 +9,26 @@
   <meta property="og:url" content="https://acerca.mxm-web.com.mx/"/>
   <meta property="og:site_name" content="MxM México por México"/>
   <meta property="og:description" content="MxM es un proyecto de Mexicanos para mexicanos, una plataforma de inclusión financiera, laboral y económica."/>
-  <meta property="og:image" content="http://acerca.mxm-web.com.mx/mxm.jpg"/>
-  <meta property="og:image:secure_url" content="https://acerca.mxm-web.com.mx/grid.jpg"/>
+  <meta property="og:image" content="https://acerca.mxm-web.com.mx/mxm.jpg"/>
+  <meta property="og:image:secure_url" content="https://acerca.mxm-web.com.mx/mxm.jpg"/>
   <meta property="og:image:type" content="image/jpeg" />
   <meta property="og:image:alt" content="MxM acerca de"/>
 
   <meta name="twitter:card" content="summary_large_image" />
 
-  <title>MXM | México por México </title>
+  <meta name="google-site-verification" content="fi8P4XcMVci24LZVVh0i46LzsHV6xhase4uX2JkYV0M" />
+
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="mxm, mxm mexico por mexico, proyecto de Mexicanos para mexicanos, plataforma de inclusión financiera, plataforma de inclusión laaboral" name="keywords">
   <meta content="MxM es un proyecto de Mexicanos para mexicanos, una plataforma de inclusión financiera, laboral y económica." name="description">
 
+    <title>MXM | Proyecto México por México </title>
+
+    <!-- Main Stylesheet File -->
+    <link href="css/style.css" rel="stylesheet">
+
   <!-- hreflang -->
-  <link rel="alternate" href="https://acerca.mxm-web.com.mx" hreflang="es" />
+  <link rel="canonical" href="https://acerca.mxm-web.com.mx"/>
 
   <!-- Favicons -->
   <link href="img/logo.ico" rel="icon">
@@ -69,7 +72,7 @@
         <a href="#header" class="scrollto"><img src="img/logo.png" alt="MxM logo" class="img-fluid"></a>
       </div>
 
-      <nav class="main-nav float-right d-none d-lg-block">
+      <nav class="main-nav float-right d-none d-lg-flex align-items-center align-content-center justify-content-end">
         <ul>
           <li class="active"><a href="#inicio">Inicio</a></li>
           <li><a href="#analisis">Análisis</a></li>
@@ -80,6 +83,7 @@
           <!--<li><a href="#portfolio">Portafolio</a></li>
           <li><a href="#footer">Contáctanos</a></li>-->
         </ul>
+        <a href="https://app.mxm-web.com.mx/login" class="topbarButton scrollto ml-3">Abrir plataforma</a>
       </nav><!-- .main-nav -->
 
     </div>
@@ -338,6 +342,20 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->
   <div id="preloader"></div>
+
+  <script type="application/ld+json">
+      {
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "MXM | Proyecto México por México",
+          "url": "https://acerca.mxm-web.com.mx",
+          "potentialAction": {
+              "@type": "SearchAction",
+              "target": "{search_term_string}",
+              "query-input": "required name=search_term_string"
+          }
+      }
+  </script>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>

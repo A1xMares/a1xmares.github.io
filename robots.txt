@@ -2,4 +2,4 @@ User-Agent: *
 Disallow:
 Allow: /
 
-Sitemap: https://www.gridcompany.com.mx/sitemap.xml
+Sitemap: https://acerca.mxm-web.com.mx/sitemap.xml

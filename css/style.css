@@ -2023,3 +2023,17 @@ h6 {
 .notFoundFooter {
   background: #EFEFEF !important;
 }
+
+.topbarButton {
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff !important;
+  background: darkred;
+}
